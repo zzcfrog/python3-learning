@@ -70,7 +70,7 @@ class Person:
 
 def check_custom_type(obj):
     match obj:
-        case Person('Alice', 25):
+        case Person(name = 'Alice', age = 25):
             print("匹配 Person 对象，姓名为 Alice，年龄为 25")
         case Person(name='Bob', age=30):
             print("匹配 Person 对象，姓名为 Bob，年龄为 30")
