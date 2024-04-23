@@ -41,6 +41,9 @@ print("a //= b:", a)
 a %= b
 print("a %= b:", a)
 
+# 三目运算符
+print("a if a > b else b:", a if a > b else b)
+
 # 成员运算符
 print("1 in [1, 2, 3]:", 1 in [1, 2, 3])
 print("4 not in [1, 2, 3]:", 4 not in [1, 2, 3])
