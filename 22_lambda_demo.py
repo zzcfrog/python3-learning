@@ -7,7 +7,9 @@
 sum = lambda a,b : a+b
 print(sum(1,2)) # Output: 3
 
-
+'''
+    这块重点看下，不好理解
+'''
 #lambda 也可以作为函数参数传递
 def multiply_n(n):
     return lambda a : a*n
