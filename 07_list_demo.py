@@ -65,6 +65,12 @@ print(numbers)   # [1, 3, 4, 5, 6, 7, 8, 9]
 numbers.reverse() # reverse the list
 print(numbers)     # [9, 8, 7, 6, 5, 4, 3, 1]
 
+del numbers[-1] # remove the last element of the list
+print(numbers)   # [9, 8, 7, 6, 5, 4, 3]
+
+del numbers[2:5] # remove the elements from index 2 to 4 (not including 5)
+print(f"{numbers=}")   # [9, 8, 5, 4, 3]
+
 numbers_copy = numbers.copy() # create a shallow copy of the list
 print(numbers_copy)          # [9, 8, 7, 6, 5, 4, 3, 1]
 

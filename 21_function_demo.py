@@ -48,7 +48,7 @@ def person_info(age, name = 'somebody'):  # 定义时可以指定默认值，调
 
 person_info(age=25) # 调用时只传入age参数，name参数使用默认值
 
-# 一个*是边长参数，必须放到最后一个位置参数之后，并且变长参数是元组形式
+# 一个*是变长参数，必须放到最后一个位置参数之后，并且变长参数是元组形式
 def add_numbers(*values): 
     result = 0 
     for v in values:

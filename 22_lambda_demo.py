@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #lambda 是匿名函数，格式如下：
-#lambda 参数列表 : 表达式
+#lambda 参数列表 : 返回值表达式
 
 sum = lambda a,b : a+b
 print(sum(1,2)) # Output: 3
